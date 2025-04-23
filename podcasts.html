@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tous les Podcasts</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Podcasts</h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="podcasts.html" class="active">Tous les podcasts</a></li>
+                        <li><a href="qr-codes.html">QR Codes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Tous les podcasts</h2>
+                <p>Explorez notre collection complète de podcasts</p>
+            </div>
+        </section>
+
+        <section class="all-podcasts">
+            <div class="container">
+                <div class="podcast-filters">
+                    <input type="text" id="search-podcast" placeholder="Rechercher un podcast..." class="search-input">
+                </div>
+                
+                <div class="podcast-grid" id="podcast-list">
+                    <!-- Les podcasts seront générés dynamiquement ici -->
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Podcast 1">
+                        </div>
+                        <div class="podcast-info">
+                            <h4>Exemple de podcast</h4>
+                            <p class="podcast-date">23 avril 2025</p>
+                            <a href="podcasts/2025-04-23-01.html" class="podcast-link">Écouter</a>
+                        </div>
+                    </div>
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Podcast 2">
+                        </div>
+                        <div class="podcast-info">
+                            <h4>Exemple de podcast 2</h4>
+                            <p class="podcast-date">22 avril 2025</p>
+                            <a href="podcasts/2025-04-22-01.html" class="podcast-link">Écouter</a>
+                        </div>
+                    </div>
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Podcast 3">
+                        </div>
+                        <div class="podcast-info">
+                            <h4>Exemple de podcast 3</h4>
+                            <p class="podcast-date">21 avril 2025</p>
+                            <a href="podcasts/2025-04-21-01.html" class="podcast-link">Écouter</a>
+                        </div>
+                    </div>
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Podcast 4">
+                        </div>
+                        <div class="podcast-info">
+                            <h4>Exemple de podcast 4</h4>
+                            <p class="podcast-date">20 avril 2025</p>
+                            <a href="podcasts/2025-04-20-01.html" class="podcast-link">Écouter</a>
+                        </div>
+                    </div>
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Podcast 5">
+                        </div>
+                        <div class="podcast-info">
+                            <h4>Exemple de podcast 5</h4>
+                            <p class="podcast-date">19 avril 2025</p>
+                            <a href="podcasts/2025-04-19-01.html" class="podcast-link">Écouter</a>
+                        </div>
+                    </div>
+                    <div class="podcast-card">
+                        <div class="podcast-thumbnail">
+                            <img src="images/placeholder.jpg" alt="Podcast 6">
+                        </div>
+                        <div class="podcast-info">
+                            <h4>Exemple de podcast 6</h4>
+                            <p class="podcast-date">18 avril 2025</p>
+                            <a href="podcasts/2025-04-18-01.html" class="podcast-link">Écouter</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pagination">
+                    <button class="btn pagination-btn" disabled>Précédent</button>
+                    <span class="pagination-info">Page 1 sur 1</span>
+                    <button class="btn pagination-btn" disabled>Suivant</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bibliothèque de Podcasts. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
